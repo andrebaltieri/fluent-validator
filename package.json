@@ -1,0 +1,19 @@
+{
+  "name": "fluent-validator-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  },
+  "scripts": {
+    "test": "mocha tests/**/**.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
