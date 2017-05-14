@@ -61,22 +61,22 @@ npm install fluent-validator --save
 | Method/Prop | Desc | Test | Status |
 |---|---|---|---|
 | errors | Return a list of errors | OK | Ready |
-| clear() | Clear the error list | OK | Ready |
-| isRequired(value, message) | Check if a value is null or empty | OK | Ready |
-| hasMinLen(value, min, message) |   | NOK |   |
-| hasMaxLen(value, max, message) |   | NOK |   |
-| isFixedLenght |   | NOK |   |
-| isEmail |   | NOK |   |
-| isUrl |   | NOK |   |
-| isGreaterThan |   | NOK |   |
-| isGreaterOrEqualsThan |   | NOK |   |
-| isLowerThan |   | NOK |   |
-| isLowerOrEqualsThan |   | NOK |   |
-| isBetween |   | NOK |   |
-| contains |   | NOK |   |
-| isNull |   | NOK |   |
-| isNotNull |   | NOK |   |
-| areEquals |   | NOK |   |
+| clear () | Clear the error list | OK | Ready |
+| isRequired (val, message) | Check if a value is null or empty | OK | Ready |
+| hasMinLen (val, min, message) |   | NOK |   |
+| hasMaxLen (val, max, message) |   | NOK |   |
+| isFixedLenght (val, len, message) |   | NOK |   |
+| isEmail (email, message) |   | NOK |   |
+| isUrl (url, message) |   | NOK |   |
+| isGreaterThan (val1, val2, message) |   | NOK |   |
+| isGreaterOrEqualsThan (val1, val2, message) |   | NOK |   |
+| isLowerThan (val1, val2, message) |   | NOK |   |
+| isLowerOrEqualsThan (val1, val2, message) |   | NOK |   |
+| isBetween (val1, val2, message) |   | NOK |   |
+| contains (val, message) |   | NOK |   |
+| isNull (val, message) |   | NOK |   |
+| isNotNull (val1, val2, message) (val, message) |   | NOK |   |
+| areEquals (val1, val2, message) |   | NOK |   |
 | areNotEquals |   | NOK |   |
-| isTrue |   | NOK |   |
-| isFalse |   | NOK |   |
+| isTrue (val, message) |   | NOK |   |
+| isFalse (val, message) |   | NOK |   |
